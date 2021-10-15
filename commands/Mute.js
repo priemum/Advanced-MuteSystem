@@ -5,7 +5,7 @@ module.exports = {
   description: "Mute a member",
   category: "moderation",
   permissions: ["MUTE_MEMBERS"],
-  minArgs: 1,
+  minArgs: 1,         
   expectedArgs: "<Member>",
 
   callback: async ({ message, args }) => {
