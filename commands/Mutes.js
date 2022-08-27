@@ -1,7 +1,7 @@
 const { Message, MessageEmbed } = require("discord.js");
 const Schema = require("../models/Utils/setMute");
 module.exports = {
-  name: "mutes",
+  name: "mutes",       
   description: "display the mutes of user",
   category: "moderation",
   permissions: ["ADMINISTRATOR"],
